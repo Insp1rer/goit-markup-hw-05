@@ -58,7 +58,11 @@
           <h1 class="hero-section-header">
             Effective Solutions<br />for Your Business<br />
           </h1>
-          <button class="hero-section-button text" type="button">
+          <button
+            class="hero-section-button text"
+            type="button"
+            data-modal-open
+          >
             Order Service
           </button>
         </div>
@@ -224,7 +228,6 @@
                   <a
                     class="social-list-item"
                     href="https://www.instagram.com/"
-                    target="_blank"
                     target="_blank"
                     ><svg width="16" height="16" class="icon-item">
                       <use href="./images/icons.svg#icon-instagram"></use></svg
@@ -437,74 +440,55 @@
         <div class="footer-social">
           <h3 class="footer-list-header">Social media</h3>
           <ul class="footer-social-list list">
-                <li>
-                  <a
-                    class="footer-social-list-item"
-                    href="https://www.instagram.com/"
-                    target="_blank"
-                    ><svg width="24" height="24" class="footer-icon-item">
-                      <use href="./images/icons.svg#icon-instagram"></use></svg
-                  ></a>
-                </li>
-                <li>
-                  <a
-                    class="footer-social-list-item"
-                    href="https://twitter.com/"
-                    target="_blank"
-                  >
-                    <svg width="24" height="24" class="footer-icon-item">
-                      <use href="./images/icons.svg#icon-twitter"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li>
-                  <a
-                    class="footer-social-list-item"
-                    href="https://uk-ua.facebook.com/"
-                    target="_blank"
-                  >
-                    <svg width="24" height="24" class="footer-icon-item">
-                      <use href="./images/icons.svg#icon-facebook"></use></svg
-                  ></a>
-                </li>
-                <li>
-                  <a
-                    class="footer-social-list-item"
-                    href="https://ua.linkedin.com/"
-                    target="_blank"
-                  >
-                    <svg width="24" height="24" class="footer-icon-item">
-                      <use href="./images/icons.svg#icon-linkedin"></use></svg
-                  ></a>
-                </li>
-              </ul>
+            <li>
+              <a
+                class="footer-social-list-item"
+                href="https://www.instagram.com/"
+                target="_blank"
+                ><svg width="24" height="24" class="footer-icon-item">
+                  <use href="./images/icons.svg#icon-instagram"></use></svg
+              ></a>
+            </li>
+            <li>
+              <a
+                class="footer-social-list-item"
+                href="https://twitter.com/"
+                target="_blank"
+              >
+                <svg width="24" height="24" class="footer-icon-item">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a
+                class="footer-social-list-item"
+                href="https://uk-ua.facebook.com/"
+                target="_blank"
+              >
+                <svg width="24" height="24" class="footer-icon-item">
+                  <use href="./images/icons.svg#icon-facebook"></use></svg
+              ></a>
+            </li>
+            <li>
+              <a
+                class="footer-social-list-item"
+                href="https://ua.linkedin.com/"
+                target="_blank"
+              >
+                <svg width="24" height="24" class="footer-icon-item">
+                  <use href="./images/icons.svg#icon-linkedin"></use></svg
+              ></a>
             </li>
           </ul>
         </div>
       </div>
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button type="button" data-modal-close>Закривашка</button>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
-
-<!-- <div class="soc-links">
-                <a
-                  href="https://www.instagram.com/"
-                  class="instagram"
-                  target="_blank"
-                ></a>
-                <a
-                  href="https://twitter.com/"
-                  class="twitter"
-                  target="_blank"
-                ></a>
-                <a
-                  href="https://uk-ua.facebook.com/"
-                  class="facebook"
-                  target="_blank"
-                ></a>
-                <a
-                  href="https://ua.linkedin.com/"
-                  class="linkedin"
-                  target="_blank"
-                ></a>
-              </div> -->
