@@ -723,3 +723,20 @@ body {
 .portfolio-images-block:hover .overlay-text {
   transform: translateY(0%);
 }
+
+.modal-button {
+  position: absolute;
+  right: 24px;
+  top: 24px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  background-color: var(--footer-text);
+  background-position: center;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+}
